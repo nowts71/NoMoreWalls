@@ -1,34 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
+  password: e06e0f44-45d6-4791-bfbf-959f3af5d3c1
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪1 |  5.4MB/s
-  password: q7jwtcA0MmyYi0JddUgXXj
-  port: 42037
-  server: 85.208.139.31
-  type: ss
-- allowInsecure: ''
-  name: 1|🇩🇪9 |  1.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 1|🇩🇪3 |  4.6MB/s
   network: ws
-  password: redfree8
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: redfree8-p1.pooriashop.ir
-  tls: true
-  type: trojan
+  port: 20051
+  raw:
+    add: 91.149.233.178
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: a8ca1114-9792-4c23-8c92-629e9e3b2d3a
+    net: ws
+    path: /
+    port: '20051'
+    ps: 🇩🇪 --001-1E
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 91.149.233.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8ca1114-9792-4c23-8c92-629e9e3b2d3a
   ws-opts:
-    headers:
-      Host: redfree8-p1.pooriashop.ir
-    path: /trJF1XisQEbWZpxEHh?ed=2560
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 0de6a31d-3383-4ec3-8a64-948337ac8701
   port: 31471
   server: free.2apzhfa.xyz
   type: ss

@@ -1,59 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
+  password: e06e0f44-45d6-4791-bfbf-959f3af5d3c1
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
+  password: e06e0f44-45d6-4791-bfbf-959f3af5d3c1
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
+  password: e06e0f44-45d6-4791-bfbf-959f3af5d3c1
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 1|🇹🇼3 |  6.0MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8301
-  protocol: origin
-  protocol-param: ''
-  server: cn10.closeai.one
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- allowInsecure: '1'
+  name: 1|🇹🇼7 |  4.6MB/s
+  network: ws
+  password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
+  port: 443
+  server: 166.0.198.68
+  skip-cert-verify: true
+  sni: golinkwuxian.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 222.golinkwuxian.top
+    path: /apple
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
@@ -61,9 +44,30 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾3|@ripaojiedian
+  name: 11|🇹🇼 台湾3|@ripaojiedian
   password: d192a833-b118-4b46-8e54-12cf5025d4cd
   port: 33248
   server: gsyd.aicheetah.lol
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: 0de6a31d-3383-4ec3-8a64-948337ac8701
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: 0de6a31d-3383-4ec3-8a64-948337ac8701
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: 0de6a31d-3383-4ec3-8a64-948337ac8701
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
