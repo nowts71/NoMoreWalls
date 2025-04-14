@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: de93085a-876e-4b94-b173-698d9371eb3e
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -27,9 +27,9 @@ proxies:
       Host: redfree8-p1.pooriashop.ir
     path: /trJF1XisQEbWZpxEHh?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: cc1f0a1b-b71d-4815-b42b-b1accd544b9a
-  port: 36471
-  server: free.2weradf.xyz
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
