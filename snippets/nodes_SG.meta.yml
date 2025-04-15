@@ -1,8 +1,37 @@
 proxies:
+- name: 1|🇸🇬1 |  1.4MB/s
+  password: ba8f41dc-26d2-38cf-8b03-d7cf42da50b7
+  port: 30712
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x83.flybar.work
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,13|CN_speednode_0011
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇸🇬3 |  5.3MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
 - client-fingerprint: ''
   flow: none
   mode: ''
-  name: 0|🇸🇬1 |  5.8MB/s
+  name: 1|🇸🇬4 |  5.5MB/s
   network: ws
   port: 80
   server: support.zoom.us
@@ -15,43 +44,6 @@ proxies:
     headers:
       Host: free.server.techsonicpremium.shop
     path: '%2Ffree.server.techsonicpremium.shop'
-- client-fingerprint: ''
-  flow: none
-  mode: ''
-  name: 0|🇸🇬2 |  3.0MB/s
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
-  ws-opts:
-    headers:
-      Host: free.server.techsonicpremium.shop
-    path: '%2Ffree.server.techsonicpremium.shop'
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -115,21 +107,21 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 01 | 1x SG
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 02 | 1x SG
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 03 | 1x SG
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31175
   server: free.2apzhfa.xyz
   type: ss

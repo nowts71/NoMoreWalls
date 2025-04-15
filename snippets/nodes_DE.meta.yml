@@ -1,83 +1,96 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 1517
-  name: 0|🇩🇪1 |  4.7MB/s
-  password: 867f512f-93d2-4344-853c-50965de9b103
-  port: 55215
-  server: shy38.zqjc.cloud
-  skip-cert-verify: false
-  sni: shy38.zqjc.cloud
-  type: hysteria2
-  udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪2 |  5.8MB/s
-  network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 9b219132-8757-4b0c-a572-50455e452d84
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - client-fingerprint: chrome
+  delay: 1744
   flow: xtls-rprx-vision
-  mode: ''
-  name: 0|🇩🇪3 |  5.3MB/s
+  name: 1,13|CN_speednode_0033
   network: tcp
-  port: 39704
+  port: 58031
   reality-opts:
-    public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
-    short-id: 130ea22d
-  server: 185.230.162.53
-  servername: aa.com
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪2 |  5.9MB/s
+  network: tcp
+  port: 59574
+  reality-opts:
+    public-key: EuBpQwRTkwQTX1-Aty_DvdUg6PJnpvhbRENuBbUgHBQ
+    short-id: ''
+  server: 91.107.167.61
+  servername: refersion.com
   tls: true
   type: vless
   udp: false
-  uuid: 5b101fa9-9711-4fdf-8512-43490edee4ac
+  uuid: f626e2f0-eea1-411c-9f06-cae4a056d26b
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪4 |  5.7MB/s
+  name: 1|🇩🇪3 |  3.5MB/s
   network: ws
-  port: 2082
-  server: 104.17.147.22
+  port: 2095
+  server: 173.245.59.100
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 9b219132-8757-4b0c-a572-50455e452d84
+  uuid: b3e89a9c-0220-4b24-dbc2-a56e9514aab8
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: chrome
+      Host: xpntEamfree.sockSchangert.ir.
+    path: '@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048'
+- allowInsecure: ''
+  name: 1|🇩🇪4 |  5.4MB/s
+  network: tcp
+  password: '!!str 74260698218909400'
+  port: 443
+  server: supreme-penguin.shiner427.skin
+  skip-cert-verify: false
+  sni: supreme-penguin.shiner427.skin
+  tls: true
+  type: trojan
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪5 |  4.7MB/s
+  name: 1|🇩🇪5 |  2.4MB/s
   network: ws
-  port: 443
-  server: 91.107.131.168
-  servername: mw5.asalemaraghe.ir
-  tls: true
+  port: 15379
+  server: 188.245.183.122
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪6 |  5.9MB/s
+  network: ws
+  port: 8880
+  server: 31.22.116.154
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
+      Host: redfree8.pooriashop.ir
+    path: /---TM-@AZARBAYJAB1-------TM-@AZARBAYJAB1---------TM-@AZARBAYJAB1---join?ed=2560
 - client-fingerprint: chrome
   flow: ''
   grpc-opts:
     grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
   mode: ''
-  name: 0|🇩🇪6 |  4.6MB/s
+  name: 1|🇩🇪7 |  4.7MB/s
   network: grpc
   port: 8443
   server: 91.107.181.10
@@ -86,16 +99,66 @@ proxies:
   type: vless
   udp: false
   uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪8 |  2.7MB/s
+  network: ws
+  port: 80
+  server: 185.143.233.1
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: fb55df78-d8cd-fb15-0ceb-4e50d02908f9
+  ws-opts:
+    headers:
+      Host: scscff-1851f99151-server.apps.ir-central1.arvancaas.ir
+    path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪9 |  5.9MB/s
+  network: tcp
+  port: 59574
+  reality-opts:
+    public-key: EuBpQwRTkwQTX1-Aty_DvdUg6PJnpvhbRENuBbUgHBQ
+    short-id: ''
+  server: falk.headsetabad.ir
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: f626e2f0-eea1-411c-9f06-cae4a056d26b
+- country: 🇩🇪DE
+  delay: 1517
+  name: 1|🇩🇪10 |  4.9MB/s
+  password: 867f512f-93d2-4344-853c-50965de9b103
+  port: 55215
+  server: shy38.zqjc.cloud
+  skip-cert-verify: false
+  sni: shy38.zqjc.cloud
+  type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪11 |  5.5MB/s
+  network: ws
+  port: 2096
+  server: zhra.filmekade.ru
+  servername: zhra.filmekade.ru
+  tls: true
+  type: vless
+  udp: false
+  uuid: 81a015fd-c9b2-4953-81d8-9cdbf58a1b28
+  ws-opts:
+    headers:
+      Host: zhra.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - cipher: chacha20-ietf-poly1305
   name: 14|🇩🇪德国 01 | 1x DE
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
