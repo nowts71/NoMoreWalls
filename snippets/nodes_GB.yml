@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
