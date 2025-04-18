@@ -1,7 +1,84 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 37223818-be02-402c-9c85-f11f3eccd683
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 37223818-be02-402c-9c85-f11f3eccd683
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 4b5ea284-1bd7-47fa-8afd-8587f860651d
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 4b5ea284-1bd7-47fa-8afd-8587f860651d
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇭🇰1 |  6.3MB/s
+  name: 2|🇭🇰1 |  2.2MB/s
+  network: tcp
+  port: 33782
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰2 |  4.1MB/s
+  network: tcp
+  port: 10860
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰3 |  5.4MB/s
+  network: tcp
+  port: 40387
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰4 |  1.9MB/s
+  network: tcp
+  port: 15229
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  ws-headers:
+    Host: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰5 |  6.2MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -14,7 +91,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1007
   flow: xtls-rprx-vision
-  name: 0|🇭🇰2 |  1.6MB/s
+  name: 2|🇭🇰6 |  5.9MB/s
   network: tcp
   port: 46716
   reality-opts:
@@ -27,45 +104,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,14|CN_speednode_0010
-  network: tcp
-  port: 23657
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰4 |  6.3MB/s
-  network: tcp
-  port: 54220
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰5 |  1.9MB/s
-  network: tcp
-  port: 40387
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇭🇰6 |  5.7MB/s
+  name: 2|🇭🇰7 |  5.8MB/s
   network: tcp
   port: 25135
   reality-opts:
@@ -75,34 +114,56 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰8 |  3.9MB/s
+  network: tcp
+  port: 61178
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰9 |  2.2MB/s
+  network: tcp
+  port: 12597
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇭🇰10 |  6.2MB/s
+  network: tcp
+  port: 41279
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0007
+  network: tcp
+  port: 45883
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: 319399bd-4167-41ac-91be-7566584192ea
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 319399bd-4167-41ac-91be-7566584192ea
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
@@ -191,16 +252,6 @@ proxies:
   network: tcp
   port: '41291'
   server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13|香港6|@ripaojiedian
-  network: tcp
-  port: '43674'
-  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess
