@@ -1,47 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 87fddbbe-f135-4916-b66f-036bb780def5
+  password: 8691a167-cb02-49e1-b2ba-58a83c95c9cf
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 2|🇷🇺1 |  1.1MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 2|🇷🇺2 |  1.4MB/s
-  port: 10469
-  server: 46.17.41.174
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- country: 🇷🇺RU
-  delay: 1055
-  name: 2|🇷🇺3 |  1.3MB/s
-  password: dongtaiwang.com
-  port: 10011
-  server: hy2.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇷🇺4 |  1.3MB/s
+  name: 2|🇷🇺1 |  3.8MB/s
   network: tcp
   port: 20216
   reality-opts:
@@ -51,6 +18,39 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- country: 🇷🇺RU
+  delay: 1055
+  name: 2|🇷🇺2 |  3.9MB/s
+  password: dongtaiwang.com
+  port: 10011
+  server: hy2.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 2|🇷🇺3 |  5.2MB/s
+  port: 10469
+  server: 46.17.41.174
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 2|🇷🇺4 |  4.0MB/s
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
 - name: '11|Channel id: @ARGO_VPN1🇷🇺'
   password: dongtaiwang.com
   port: 12904
