@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 70d22649-d07b-4df9-94e2-ba2baec467cd
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 334e7422-5b13-423b-b3cf-852ca03723bd
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇩🇪4 |  4.5MB/s
+  name: 1|🇩🇪2 |  1.4MB/s
   network: ws
   port: 24570
   raw:
@@ -36,14 +36,16 @@ proxies:
     headers:
       Host: azadbashid.azad.sdcd5ssf.site
     path: /
-- name: 1|🇩🇪12 |  5.3MB/s
+- name: 1|🇩🇪11 |  1.1MB/s
   password: '!!str 3828095943467868160'
   port: 443
-  server: immense-goose.dolphin109.quest
+  server: 202.78.163.146
   skip-cert-verify: true
   sni: immense-goose.dolphin109.quest
+  tfo: false
   type: trojan
-- name: 1,13|GB_speednode_0058
+  udp: true
+- name: 1,14|GB_speednode_0058
   password: '!!str 3828095943467868160'
   port: 443
   server: sharp-bear.dolphin109.quest
@@ -52,9 +54,9 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 9f65fc47-1ec1-4950-a728-9ba901bf6bed
-  port: 36471
-  server: free.2weradf.xyz
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 52769e83-bd16-4cf2-a720-c631997b06ea
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
