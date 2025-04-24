@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 37c3a949-8993-4d75-9fa6-f82b9b5ea9ca
+  password: 0a72c32b-80d0-4323-87a0-e451d11c80ee
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -9,7 +9,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  1.6MB/s
+  name: 2|🇩🇪1 |  1.6MB/s
   network: ws
   port: 2053
   server: 128.140.5.200
@@ -23,7 +23,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  5.3MB/s
+  name: 2|🇩🇪2 |  5.3MB/s
   network: ws
   port: 13438
   server: V2RAXX-channel.cataba.ir
@@ -37,7 +37,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪3 |  4.6MB/s
+  name: 2|🇩🇪3 |  4.6MB/s
   network: ws
   port: 2083
   server: 104.17.147.22
@@ -53,7 +53,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪4 |  5.4MB/s
+  name: 2|🇩🇪4 |  5.4MB/s
   network: ws
   port: 2053
   server: tify-binex-join.espikernajafi.ir
@@ -67,7 +67,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪5 |  2.1MB/s
+  name: 2|🇩🇪5 |  2.1MB/s
   network: ws
   port: 80
   server: 104.18.31.5
@@ -85,7 +85,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 7594vless
   mode: ''
-  name: 1|🇩🇪6 |  1.1MB/s
+  name: 2|🇩🇪6 |  1.1MB/s
   network: grpc
   port: 7594
   reality-opts:
@@ -100,7 +100,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪7 |  5.0MB/s
+  name: 2|🇩🇪7 |  5.0MB/s
   network: ws
   port: 13438
   server: 23.88.44.129
@@ -114,7 +114,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪8 |  2.5MB/s
+  name: 2|🇩🇪8 |  2.5MB/s
   network: ws
   port: 443
   server: 104.25.140.153
@@ -127,7 +127,7 @@ proxies:
     headers:
       Host: BPB-pANEL-En-1O0.pAges.DEV
     path: /
-- name: 1|🇩🇪9 |  3.7MB/s
+- name: 2|🇩🇪9 |  3.7MB/s
   password: 0412a30a-bc16-4815-a3aa-3265d5037b6e
   port: 43583
   server: sla.cn.964e995b760.gogodns.xin
@@ -137,7 +137,7 @@ proxies:
 - client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 1|🇩🇪10 |  1.7MB/s
+  name: 2|🇩🇪10 |  1.7MB/s
   network: ws
   port: 443
   server: 172.66.44.68
@@ -153,7 +153,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪11 |  2.0MB/s
+  name: 2|🇩🇪11 |  2.0MB/s
   network: tcp
   port: 28697
   reality-opts:
@@ -166,7 +166,7 @@ proxies:
   udp: false
   uuid: 39d4ce03-f896-48db-8d2e-c95daa4898e4
 - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-  name: 1|🇩🇪12 |  4.8MB/s
+  name: 2|🇩🇪12 |  4.8MB/s
   password: 88925c12-4222-4ed3-84bd-6bfac300360f
   port: 8443
   server: dg1.gywanglug.xyz
@@ -176,7 +176,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪13 |  5.6MB/s
+  name: 2|🇩🇪13 |  5.6MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -191,7 +191,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪14 |  5.9MB/s
+  name: 2|🇩🇪14 |  5.9MB/s
   network: ws
   port: 2083
   server: 104.17.148.22
@@ -206,7 +206,7 @@ proxies:
     path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - alpn:
   - h3
-  name: 9|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+  name: 10|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
   obfs: salamander
   obfs-password: SiNAVM-SiNAVM-SiNAVM-@SiNAVM-@SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -214,7 +214,7 @@ proxies:
   server: sinavm.soft10.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -225,7 +225,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|DE_speednode_0041
+  name: 14|DE_speednode_0041
   port: 33117
   reality-opts:
     public-key: Uu1ZW6SsALHqdsTBDaSB0EyLfG4jXxJhPWnu9A1VqiE
@@ -237,10 +237,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2e7b1501-74a0-4f74-be84-559625aa3100
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 2cc86e6a-06f6-4ed3-8053-b35ffa607a41
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
