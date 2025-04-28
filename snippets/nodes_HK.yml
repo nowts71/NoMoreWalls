@@ -1,52 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: d23ffdba-f792-4af2-ad59-ba9f449d4742
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: d23ffdba-f792-4af2-ad59-ba9f449d4742
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇭🇰2 |  1.4MB/s
-  network: ws
-  port: 80
-  server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
   client-fingerprint: chrome
   country: 🇭🇰 HK
   h2-opts: {}
   http-opts: {}
-  name: 2|🇭🇰6 |  2.9MB/s
+  name: 1|🇭🇰2 |  2.5MB/s
   network: ws
   port: 80
   server: 7c354dbb-sv2sg0-svak69-1f9n2.hk.p5pv.com
@@ -61,19 +34,22 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 2|🇭🇰7 |  1.6MB/s
+  client-fingerprint: chrome
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 1|🇭🇰3 |  1.8MB/s
   network: ws
   port: 80
-  server: eadf838f-sva740-sveyey-44k4.hk.p5pv.com
+  server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
-  tfo: false
-  tls: false
   type: vmess
-  udp: true
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      HOST: broadcastlv.chat.bilibili.com
+      Host: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
     path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
