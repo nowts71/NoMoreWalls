@@ -1,45 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 09b4fa72-dc36-40be-bfd6-8eb1f1edfcc6
+  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 09b4fa72-dc36-40be-bfd6-8eb1f1edfcc6
+  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 09b4fa72-dc36-40be-bfd6-8eb1f1edfcc6
+  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇸🇬5 |  5.4MB/s
-  network: ws
-  port: 443
-  server: 172.67.213.110
-  servername: sgfqkqmltcy.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: sgfqkqmltcy.site
-    path: /rbqqvws
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: d23ffdba-f792-4af2-ad59-ba9f449d4742
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: d23ffdba-f792-4af2-ad59-ba9f449d4742
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: d23ffdba-f792-4af2-ad59-ba9f449d4742
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -55,38 +60,17 @@ proxies:
     path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.212.96.232
   tfo: false
   type: ss
-- name: 13|SG_speednode_0050
+- name: 14|SG_speednode_0050
   password: '!!str 74260678056890000'
   port: 443
   server: grown-doberman.shiner427.skin
   skip-cert-verify: false
   sni: grown-doberman.shiner427.skin
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: c648ec16-2465-4342-9fee-85fd49e53ad2
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: c648ec16-2465-4342-9fee-85fd49e53ad2
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: c648ec16-2465-4342-9fee-85fd49e53ad2
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
   udp: true
