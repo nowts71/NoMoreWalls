@@ -1,7 +1,16 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|🇨🇦1 |  4.6MB/s
+  password: pHvYevSM
+  port: 24119
+  server: 15.156.196.38
+  tfo: true
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: a945cd7f-e639-4eed-b2c0-786607e7fd85
   port: 36441
   server: free.2weradf.xyz
   type: ss
