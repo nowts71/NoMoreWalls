@@ -1,61 +1,39 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  1.6MB/s
+  delay: 772
+  name: 1|🇰🇷4 |  5.7MB/s
   password: qwerREWQ@@
-  port: 34669
-  server: p221.panda001.net
+  port: 4857
+  server: 125.141.26.12
   type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  5.6MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  5.8MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  type: ss
-- name: 2|🇰🇷4 |  1.1MB/s
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 21017
-  server: 125.94.40.162
-  sni: k16.tudou211.com
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 1|🇰🇷6 |  5.8MB/s
+  password: qwerREWQ@@
+  port: 63648
+  server: p228.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.113.222.121
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: bc2dbf15-194c-4c5e-8d09-93762ec53239
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: bc2dbf15-194c-4c5e-8d09-93762ec53239
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
