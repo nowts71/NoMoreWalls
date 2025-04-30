@@ -1,29 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 1|🇹🇼4 |  5.2MB/s
-  password: 3ba409f5-e03e-4cf1-8c2e-91c0d281e9a1
-  port: 16944
-  server: hm.huamao888.top
+  name: 13|🇹🇼台湾 01 | 1x TW
+  password: 60946f01-e16e-4940-9538-ffc3594288f0
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇹🇼台湾 02 | 1x TW
+  password: 60946f01-e16e-4940-9538-ffc3594288f0
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇹🇼台湾 03 | 1x TW
+  password: 60946f01-e16e-4940-9538-ffc3594288f0
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾 01 | 1x TW
-  password: bc2dbf15-194c-4c5e-8d09-93762ec53239
+  password: 97ece58e-89de-4c5a-8f36-fbc70bee8e2a
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾 02 | 1x TW
-  password: bc2dbf15-194c-4c5e-8d09-93762ec53239
+  password: 97ece58e-89de-4c5a-8f36-fbc70bee8e2a
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾 03 | 1x TW
-  password: bc2dbf15-194c-4c5e-8d09-93762ec53239
+  password: 97ece58e-89de-4c5a-8f36-fbc70bee8e2a
   port: 36245
   server: free.2weradf.xyz
   type: ss
