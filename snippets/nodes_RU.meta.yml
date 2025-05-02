@@ -57,12 +57,13 @@ proxies:
   up: 1000 Mbps
 - auth: dongtaiwang.com
   delay: 1135
-  name: 2|🇷🇺7 |  5.2MB/s
+  name: 2,10|سرور راگن رر @vmess_ir
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
   type: hysteria2
 - client-fingerprint: chrome
   name: 14|RU_speednode_0013

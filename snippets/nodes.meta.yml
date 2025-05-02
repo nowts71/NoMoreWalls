@@ -524,7 +524,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 2,10|Mtn-@V2ray_Raha-2
+- name: 2|🇫🇷2 |  3.0MB/s
   obfs: salamander
   obfs-password: Parsaparsa
   password: tE3xb4S6LJ
@@ -2413,12 +2413,13 @@ proxies:
     path: /
 - auth: dongtaiwang.com
   delay: 1135
-  name: 2|🇷🇺7 |  5.2MB/s
+  name: 2,10|سرور راگن رر @vmess_ir
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
@@ -2839,6 +2840,16 @@ proxies:
   port: 40308
   server: 156.226.175.33
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 10|کانیگ پرسرعت رایگان@vmesc
+  obfs: salamander
+  obfs-password: AOICMIWHB892R8LNKDQX
+  password: p27Iss2ByA
+  port: 14055
+  server: p5.punchline.ir
+  skip-cert-verify: true
+  sni: p5.punchline.ir
   tls: false
   type: hysteria2
 - name: 10|Mci-@V2ray_Raha-6
