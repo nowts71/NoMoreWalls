@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 01 | 1x JP
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 02 | 1x JP
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 03 | 1x JP
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
@@ -266,15 +266,15 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: '%2F%3Fed%3D2560'
-- name: 14|JP_speednode_0076
-  password: '!!str 74260670595223200'
+- name: 14|JP_speednode_0032
+  password: '!!str 74260671232757400'
   port: 443
-  server: in-honeybee.shiner427.skin
-  skip-cert-verify: true
-  sni: in-honeybee.shiner427.skin
+  server: relaxed-airedale.shiner427.skin
+  skip-cert-verify: false
+  sni: relaxed-airedale.shiner427.skin
   type: trojan
   udp: true
-- name: 14|JP_speednode_0077
+- name: 14|JP_speednode_0033
   password: '!!str 74260671232757400'
   port: 443
   server: correct-sheepdog.shiner427.skin
@@ -282,7 +282,7 @@ proxies:
   sni: correct-sheepdog.shiner427.skin
   type: trojan
   udp: true
-- name: 14|JP_speednode_0078
+- name: 14|JP_speednode_0034
   password: '!!str 74260671232757400'
   port: 443
   server: useful-jennet.shiner427.skin
@@ -290,19 +290,11 @@ proxies:
   sni: useful-jennet.shiner427.skin
   type: trojan
   udp: true
-- name: 14|JP_speednode_0079
+- name: 14|JP_speednode_0035
   password: '!!str 74260671232757400'
   port: 443
   server: in-honeybee.shiner427.skin
   skip-cert-verify: false
   sni: in-honeybee.shiner427.skin
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0080
-  password: '!!str 74260671232757400'
-  port: 443
-  server: relaxed-airedale.shiner427.skin
-  skip-cert-verify: false
-  sni: relaxed-airedale.shiner427.skin
   type: trojan
   udp: true

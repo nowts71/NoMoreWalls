@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 02 | 1x HK
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
@@ -241,7 +241,7 @@ proxies:
   uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|HK_speednode_0071
+  name: 2,14|HK_speednode_0030
   network: tcp
   port: 20550
   reality-opts:
@@ -461,17 +461,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|HK_speednode_0074
-  network: ws
-  port: 2096
-  server: 154.211.8.47
-  servername: fei.634676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  ws-opts:
-    headers:
-      Host: fei.634676.xyz
-    path: /?ed=2560

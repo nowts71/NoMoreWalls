@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 3be48664-4293-4547-9ee4-c1436917cf77
+  password: 15ede86b-01c6-4ef4-9606-7b593d06cb60
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: b6574df6-20c7-405e-bdc0-9513992df9b8
+  password: ef2e366f-1488-4f98-96ce-4c718867c179
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -166,7 +166,7 @@ proxies:
   server: 52.199.191.145
   tfo: false
   type: ss
-- name: 14|KR_speednode_0083
+- name: 14|KR_speednode_0037
   network: ws
   port: 14896
   server: 222.117.231.32
@@ -180,7 +180,7 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 14|KR_speednode_0084
+- name: 14|KR_speednode_0038
   network: ws
   port: 10943
   server: 14.39.43.121
@@ -194,36 +194,7 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 14|KR_speednode_0085
-  network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: ed.sosocn.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 699f6733-5766-42f0-a05b-da23c5ee3817
-  ws-opts:
-    headers:
-      Host: ed.sosocn.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 14|KR_speednode_0086
-  network: ws
-  port: 50008
-  server: 59.25.160.141
-  servername: mot.luyuju.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
-  ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-    path: /?ed=2560
-- name: 14|KR_speednode_0088
+- name: 14|KR_speednode_0040
   network: ws
   port: 12416
   server: 121.174.200.92
@@ -236,4 +207,18 @@ proxies:
   ws-opts:
     headers:
       Host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 14|KR_speednode_0042
+  network: ws
+  port: 50000
+  server: 210.99.119.3
+  servername: ed.sosocn.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 699f6733-5766-42f0-a05b-da23c5ee3817
+  ws-opts:
+    headers:
+      Host: ed.sosocn.filegear-sg.me
     path: /?ed=2560
