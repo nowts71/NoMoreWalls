@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: bf340e53-35bb-4f79-8c04-24a9b12fafde
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇷🇺3 |  4.3MB/s
+- name: 2|🇷🇺3 |  4.3MB/s
   password: 3ffa664f-364a-4937-a314-1d9f02ad8458
   port: 32008
   server: lbso.bnnodeservice.com
