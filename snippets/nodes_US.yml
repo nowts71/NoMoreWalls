@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 3ed3b4e7-f79c-4798-ac6e-9e83c4ad303c
+  password: 3789532f-08d3-4b05-b885-8479db56455f
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 3ed3b4e7-f79c-4798-ac6e-9e83c4ad303c
+  password: 3789532f-08d3-4b05-b885-8479db56455f
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 3ed3b4e7-f79c-4798-ac6e-9e83c4ad303c
+  password: 3789532f-08d3-4b05-b885-8479db56455f
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -485,31 +485,10 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5f3deaa6-3f42-4df5-a1b1-03e54cb7b995
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5f3deaa6-3f42-4df5-a1b1-03e54cb7b995
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 5f3deaa6-3f42-4df5-a1b1-03e54cb7b995
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
@@ -525,7 +504,7 @@ proxies:
     path: /nmkj
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -538,7 +517,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -552,7 +531,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 14|US_speednode_0074
+- name: 13|US_speednode_0074
   network: ws
   password: Ng35283528
   port: 443
@@ -565,7 +544,7 @@ proxies:
     headers:
       Host: c2.validbv3528.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0085
+- name: 13|US_speednode_0085
   network: ws
   password: 8aa7e179-739d-4195-bceb-d3e3fddf3df9
   port: 443
@@ -578,3 +557,24 @@ proxies:
     headers:
       Host: digitaloceanusargo.lzj520hxw.dpdns.org
     path: /lzjjjjjjj666-tr?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 34306665-9e3e-4989-b960-33f60d0ddb6d
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 34306665-9e3e-4989-b960-33f60d0ddb6d
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 34306665-9e3e-4989-b960-33f60d0ddb6d
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
