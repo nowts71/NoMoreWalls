@@ -1,11 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
+  password: 5660db8a-7074-4def-9c45-cdd614c0a0e6
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  delay: 274
+  name: 1|🇰🇷11 |  2.4MB/s|Disney|Youtube...
+  password: 4QPol5
+  port: 23752
+  server: kr02.kkp.wtf
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
@@ -24,14 +31,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

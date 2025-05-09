@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
+  password: 5660db8a-7074-4def-9c45-cdd614c0a0e6
   port: 36311
   server: free.2weradf.xyz
   type: ss
@@ -9,7 +9,7 @@ proxies:
 - name: 1|🇰🇷1 |  1.1MB/s|62%|Disney
   network: ws
   port: 443
-  server: 160.123.255.58
+  server: 160.79.104.240
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -20,10 +20,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷2 |  4.6MB/s|Netflix|Disney|...
+- name: 1|🇰🇷2 |  1.8MB/s|62%|Disney
   network: ws
   port: 443
-  server: www.whatismyip.com
+  server: www.pcmag.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -34,10 +34,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷3 |  5.0MB/s|62%|Disney|Yout...
+- name: 1|🇰🇷3 |  4.0MB/s|62%|Disney
   network: ws
   port: 443
-  server: iplocation.io
+  server: 216.24.57.36
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -48,10 +48,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷4 |  1.8MB/s|62%|Disney|Open...
+- name: 1|🇰🇷4 |  1.0MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: pranab.ns.cloudflare.com
+  server: 69.84.182.97
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -62,10 +62,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷5 |  5.1MB/s|62%|Disney
+- name: 1|🇰🇷5 |  5.0MB/s|Netflix|Disney|...
   network: ws
   port: 443
-  server: 160.79.105.142
+  server: 192.9.139.160
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -76,10 +76,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷6 |  4.5MB/s|Disney
+- name: 1|🇰🇷6 |  3.9MB/s|62%|Disney
   network: ws
   port: 443
-  server: nikon.ns.cloudflare.com
+  server: 198.62.62.4
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -90,10 +90,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷7 |  5.1MB/s|62%|Disney
+- name: 1|🇰🇷7 |  4.6MB/s|62%|Disney
   network: ws
   port: 443
-  server: huxley.ns.cloudflare.com
+  server: decker.ns.cloudflare.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -104,10 +104,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷8 |  5.1MB/s|62%|Disney|Open...
+- name: 1|🇰🇷8 |  1.1MB/s|62%|Disney
   network: ws
   port: 443
-  server: icook.tw
+  server: 185.16.110.103
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -118,10 +118,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷9 |  1.7MB/s|Disney
+- name: 1|🇰🇷9 |  2.1MB/s|Disney
   network: ws
   port: 443
-  server: ashton.ns.cloudflare.com
+  server: whatismyipaddress.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -132,10 +132,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷10 |  1.1MB/s|Disney
+- name: 1|🇰🇷10 |  2.3MB/s|Netflix|Disney...
   network: ws
   port: 443
-  server: julio.ns.cloudflare.com
+  server: www.hugedomains.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -145,6 +145,27 @@ proxies:
   ws-opts:
     headers:
       Host: hl.ylka.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  delay: 274
+  name: 1|🇰🇷11 |  2.4MB/s|Disney|Youtube...
+  password: 4QPol5
+  port: 23752
+  server: kr02.kkp.wtf
+  type: ss
+- delay: 409
+  name: 1|🇰🇷12 |  1.1MB/s|62%|Disney
+  network: ws
+  port: 8880
+  server: 195.85.59.75
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  tls: false
+  type: vless
+  udp: true
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -162,6 +183,21 @@ proxies:
   server: 13.212.202.199
   tfo: false
   type: ss
+- client-fingerprint: random
+  name: 13|KR_speednode_0022
+  network: ws
+  port: 10187
+  server: 121.189.106.45
+  servername: mot.luyuju.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /?ed=2560
 - name: 13|KR_speednode_0023
   network: ws
   port: 50000
@@ -207,14 +243,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

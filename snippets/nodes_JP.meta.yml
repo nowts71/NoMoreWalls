@@ -1,41 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
+  password: 5660db8a-7074-4def-9c45-cdd614c0a0e6
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
+  password: 5660db8a-7074-4def-9c45-cdd614c0a0e6
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
+  password: 5660db8a-7074-4def-9c45-cdd614c0a0e6
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇯🇵1 |  4.2MB/s|8%|Disney|Youtu...
-  network: ws
-  port: 12202
-  server: 14.56.226.68
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      host: miku.mikuru.ip-ddns.com
-    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 1|🇯🇵2 |  1.8MB/s|8%|Netflix|Disn...
+  name: 1|🇯🇵1 |  1.7MB/s|8%|Netflix|Disn...
   network: ws
   port: 50008
   server: 59.25.160.141
@@ -50,15 +36,18 @@ proxies:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 1|🇯🇵3 |  4.8MB/s|0%|Disney|Youtu...
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
-  port: 2053
-  server: 02.tokyometropolis.ivano-frankivsk.ua
-  sni: 45.32.28.232
-  type: trojan
+  name: 1|🇯🇵2 |  1.2MB/s|0%|Youtube|Open...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  sni: tky03.sqx001.com
+  tls: true
+  type: http
   udp: true
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
-  name: 1|🇯🇵4 |  1.3MB/s|Netflix|Disney|...
+  name: 1|🇯🇵3 |  2.3MB/s|8%|Netflix|Disn...
   network: ws
   port: 10943
   server: 14.39.43.121
@@ -73,7 +62,7 @@ proxies:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 1|🇯🇵5 |  1.5MB/s|8%|Youtube|Open...
+  name: 1|🇯🇵4 |  5.7MB/s|8%|Netflix|Disn...
   network: ws
   port: 14896
   server: 222.117.231.32
@@ -87,11 +76,27 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- client-fingerprint: random
-  name: 1|🇯🇵6 |  1.2MB/s|8%|Youtube|Open...
+- client-fingerprint: chrome
+  name: 1|🇯🇵5 |  1.8MB/s|8%|Netflix|Disn...
   network: ws
-  port: '10014'
-  server: 211.213.102.88
+  port: 12456
+  server: 121.129.91.180
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- client-fingerprint: random
+  delay: 549
+  name: 1|🇯🇵6 |  6.2MB/s|8%|Disney|Youtu...
+  network: ws
+  port: 11223
+  server: 218.38.33.77
   servername: mikuyo.bpd67081tsq.ddns-ip.net
   tls: true
   type: vless
@@ -101,46 +106,9 @@ proxies:
     headers:
       Host: mikuyo.bpd67081tsq.ddns-ip.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
+        Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  name: 1|🇯🇵7 |  1.8MB/s|13%|Netflix|You...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
-  skip-cert-verify: true
-  sni: tky03.sqx001.com
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- client-fingerprint: chrome
-  name: 1|🇯🇵8 |  2.3MB/s|Disney|Youtube|...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky02.sqx001.com
-  skip-cert-verify: true
-  sni: tky02.sqx001.com
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- client-fingerprint: random
-  name: 1,13|KR_speednode_0022
-  network: ws
-  port: 10187
-  server: 121.189.106.45
-  servername: mot.luyuju.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
-  ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-    path: /?ed=2560
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -250,21 +218,21 @@ proxies:
   uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵日本 01 | 1x JP
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵日本 02 | 1x JP
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵日本 03 | 1x JP
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
