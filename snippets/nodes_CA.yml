@@ -1,26 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 84db7759-7489-4d53-a522-6dc8b9093e86
+  password: f6516a3b-9167-4fcb-aa81-8a848092d2a3
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇨🇦1 |  3.2MB/s|29%|Youtube|Ope...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 714c13ec-dfa1-4376-884f-258f6abd6c81
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: 81380a5e-613c-4863-8b3a-5588f32690c3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: MaXnEtVipAp-ca1.MaxnetserVicEs.ONliNe
-    max-early-data: 2560
-    path: /linkws
-  xudp: true
