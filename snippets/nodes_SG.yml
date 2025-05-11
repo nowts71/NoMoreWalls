@@ -1,51 +1,57 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 8844de22-2594-4005-9c0c-743ab52ba318
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 8844de22-2594-4005-9c0c-743ab52ba318
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 8844de22-2594-4005-9c0c-743ab52ba318
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: a5f2dcf9-7fd4-4482-bb0a-bbe6f163bae7
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: a5f2dcf9-7fd4-4482-bb0a-bbe6f163bae7
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: '64'
-  cipher: auto
-  name: 2|🇸🇬2 |  3.2MB/s|0%|Netflix|Disn...
-  network: tcp
-  port: '46121'
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 2|🇸🇬2 |  1.4MB/s|34%|Disney|Open...
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: '2053'
+  server: 172.66.44.214
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
