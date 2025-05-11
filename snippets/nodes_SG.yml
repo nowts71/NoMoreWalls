@@ -1,53 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 18eddff6-4442-4783-abdf-2ebf9ea9ecc6
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 18eddff6-4442-4783-abdf-2ebf9ea9ecc6
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: b81dc421-154f-496c-ae3b-67fdbdfa10d3
+  password: a09592a9-4f1a-4eb8-a928-e2f4d0567999
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: b81dc421-154f-496c-ae3b-67fdbdfa10d3
+  password: a09592a9-4f1a-4eb8-a928-e2f4d0567999
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: b81dc421-154f-496c-ae3b-67fdbdfa10d3
+  password: a09592a9-4f1a-4eb8-a928-e2f4d0567999
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  4.8MB/s|0%|Netflix|Disn...
-  password: 54231b3d-a39d-4769-a511-2a1c663a62b1
-  port: 443
-  server: sg01.trojanyyds.xyz
-  skip-cert-verify: false
-  sni: sg01.trojanyyds.xyz
-  type: trojan
-- name: 2|🇸🇬2 |  3.1MB/s|0%|Netflix|Disn...
-  password: 54231b3d-a39d-4769-a511-2a1c663a62b1
-  port: 443
-  server: sg02.trojanyyds.xyz
-  skip-cert-verify: false
-  sni: sg02.trojanyyds.xyz
-  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 2|🇸🇬2 |  1.1MB/s|0%|Netflix|Open...
+  port: 43302
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

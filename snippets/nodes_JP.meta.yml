@@ -1,83 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 18eddff6-4442-4783-abdf-2ebf9ea9ecc6
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 18eddff6-4442-4783-abdf-2ebf9ea9ecc6
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 18eddff6-4442-4783-abdf-2ebf9ea9ecc6
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 01 | 1x JP
-  password: b81dc421-154f-496c-ae3b-67fdbdfa10d3
+  password: a09592a9-4f1a-4eb8-a928-e2f4d0567999
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 02 | 1x JP
-  password: b81dc421-154f-496c-ae3b-67fdbdfa10d3
+  password: a09592a9-4f1a-4eb8-a928-e2f4d0567999
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 03 | 1x JP
-  password: b81dc421-154f-496c-ae3b-67fdbdfa10d3
+  password: a09592a9-4f1a-4eb8-a928-e2f4d0567999
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2,14|GB_speednode_0036
-  network: ws
-  port: 80
-  server: 194.36.55.181
-  servername: ipsycho.suex12.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 2,14|JP_speednode_0044
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- name: 2,14|KR_speednode_0047
-  network: ws
-  port: 11223
-  server: 218.38.33.77
-  servername: mikuyo.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
-  ws-opts:
-    headers:
-      Host: mikuyo.bpd67081tsq.ddns-ip.net
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -176,3 +118,12 @@ proxies:
   type: vless
   udp: true
   uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+- name: 14|JP_speednode_0044
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
