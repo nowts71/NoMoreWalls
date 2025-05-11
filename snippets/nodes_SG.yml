@@ -1,57 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 5558e16d-7e9d-4f33-80f7-b3a2d3e37c5b
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 5558e16d-7e9d-4f33-80f7-b3a2d3e37c5b
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: a5350a24-c867-4655-a25d-567199d5a27e
-  port: 31171
-  server: free.2apzhfa.xyz
+- cipher: chacha20-ietf
+  name: 2|🇸🇬3 |  1.3MB/s|Netflix|Youtube...
+  password: asd123456
+  port: '8388'
+  server: 103.36.91.32
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: a5350a24-c867-4655-a25d-567199d5a27e
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: a5350a24-c867-4655-a25d-567199d5a27e
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 2|🇸🇬2 |  1.4MB/s|34%|Disney|Open...
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: '2053'
-  server: 172.66.44.214
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /trGPZDfetEwuO25SAs?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -77,16 +45,3 @@ proxies:
   server: 3.112.193.115
   tfo: false
   type: ss
-- name: 14|SG_speednode_0024
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: false
-  sni: tyep.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tyep.esslh.filegear-sg.me
-    path: /
