@@ -1,5 +1,5 @@
 proxies:
-- name: 14|RU_speednode_0035
+- name: 13|RU_speednode_0035
   network: ws
   password: Aimer
   port: 2096
@@ -12,3 +12,10 @@ proxies:
     headers:
       Host: epccj.ambercc.filegear-sg.me
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: 7b6896b0-f88f-4534-bc23-d7a4841f2750
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
