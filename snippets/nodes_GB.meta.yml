@@ -1,40 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: c3c06f06-dd80-4868-8f63-20355973c7c7
-  port: 31271
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 87928136-cd6c-49a6-81d1-d3daad99a126
+  port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 51a3d8bd-ff0f-4afe-b1e8-2f404371b559
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 87928136-cd6c-49a6-81d1-d3daad99a126
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 51a3d8bd-ff0f-4afe-b1e8-2f404371b559
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 2|🇬🇧1 |  4.4MB/s|61%|Netflix|You...
-  obfs: ''
-  obfs-password: ''
+- auth: nfsn666
+  client-fingerprint: chrome
+  name: 1|🇬🇧1 |  3.5MB/s|61%|Netflix|You...
   password: nfsn666
-  port: '8888'
+  port: 8888
   server: ld-arm.nfsn666.gq
   skip-cert-verify: true
   sni: ld-arm.nfsn666.gq
   type: hysteria2
-  up: ''
+  udp: true
 - alpn:
   - h3
-  name: 10|🇬🇧@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+  name: 9|🇬🇧@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -43,7 +34,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0038
+- name: 13|GB_speednode_0038
   network: ws
   port: 8880
   server: 91.193.58.214
@@ -57,7 +48,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0039
+- name: 13|GB_speednode_0039
   network: ws
   port: 8880
   server: 91.193.58.156
@@ -71,7 +62,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0040
+- name: 13|GB_speednode_0040
   network: ws
   port: 8880
   server: 91.193.58.170
@@ -85,7 +76,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0041
+- name: 13|GB_speednode_0041
   network: ws
   port: 8880
   server: 91.193.58.84
@@ -99,7 +90,21 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0043
+- name: 13|GB_speednode_0042
+  network: ws
+  port: 8880
+  server: 91.193.58.215
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0043
   network: ws
   port: 8880
   server: 91.193.58.58
@@ -113,7 +118,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0044
+- name: 13|GB_speednode_0044
   network: ws
   port: 8880
   server: 91.193.58.59
@@ -127,7 +132,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0045
+- name: 13|GB_speednode_0045
   network: ws
   port: 8880
   server: 91.193.58.205
@@ -141,7 +146,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0046
+- name: 13|GB_speednode_0046
   network: ws
   port: 8880
   server: 91.193.58.44
@@ -155,7 +160,21 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0048
+- name: 13|GB_speednode_0047
+  network: ws
+  port: 8880
+  server: 91.193.58.213
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0048
   network: ws
   port: 8880
   server: 91.193.58.83
@@ -169,7 +188,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0049
+- name: 13|GB_speednode_0049
   network: ws
   port: 8880
   server: 91.193.58.198
@@ -183,7 +202,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0050
+- name: 13|GB_speednode_0050
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -196,7 +215,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.227:443&proxyIP=null
-- name: 14|GB_speednode_0051
+- name: 13|GB_speednode_0051
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -209,7 +228,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.89:443
-- name: 14|GB_speednode_0052
+- name: 13|GB_speednode_0052
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -222,7 +241,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.51:443
-- name: 14|GB_speednode_0053
+- name: 13|GB_speednode_0053
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -235,7 +254,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.227:443
-- name: 14|GB_speednode_0054
+- name: 13|GB_speednode_0054
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -248,7 +267,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.51:443&proxyIP=null
-- name: 14|GB_speednode_0055
+- name: 13|GB_speednode_0055
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -261,7 +280,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443&proxyIP=null
-- name: 14|GB_speednode_0056
+- name: 13|GB_speednode_0056
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -274,7 +293,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.237:443&proxyIP=null
-- name: 14|GB_speednode_0057
+- name: 13|GB_speednode_0057
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -287,7 +306,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.221:443&proxyIP=null
-- name: 14|GB_speednode_0058
+- name: 13|GB_speednode_0058
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
