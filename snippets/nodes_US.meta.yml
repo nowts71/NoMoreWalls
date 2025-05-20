@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: b8cd1baa-9d2c-4da7-990b-db4386a73161
+  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: b8cd1baa-9d2c-4da7-990b-db4386a73161
+  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: b8cd1baa-9d2c-4da7-990b-db4386a73161
+  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -582,7 +582,7 @@ proxies:
     headers:
       Host: cl.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 2|🇺🇸48 |  1.4MB/s|0%|Disney|Open...
+- name: 2,14|US_speednode_0023
   network: ws
   port: 8880
   server: 108.162.198.20
@@ -1417,4 +1417,414 @@ proxies:
   ws-opts:
     headers:
       Host: zxjp-a.tkong.cc
+    path: /
+- name: 14|US_speednode_0022
+  network: ws
+  port: 8880
+  server: 198.41.219.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0024
+  network: ws
+  port: 8880
+  server: 14.102.229.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0025
+  network: ws
+  port: 8880
+  server: 198.41.192.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0026
+  network: ws
+  port: 8880
+  server: 162.159.7.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0027
+  network: ws
+  port: 8880
+  server: 141.101.120.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0028
+  network: ws
+  port: 8880
+  server: 172.66.44.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0029
+  network: ws
+  port: 8880
+  server: 198.41.199.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0031
+  network: ws
+  port: 8880
+  server: 162.159.136.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0032
+  network: ws
+  port: 8880
+  server: 198.41.217.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0033
+  network: ws
+  port: 8880
+  server: 14.102.228.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0035
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v02.networkpro.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v02.networkpro.net
+    path: /?ed=2048
+- name: 14|US_speednode_0036
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.networkpro.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.networkpro.net
+    path: /?ed=2048
+- name: 14|US_speednode_0037
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v11.networkpro.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v11.networkpro.net
+    path: /?ed=2048
+- name: 14|US_speednode_0038
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v04.networkpro.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v04.networkpro.net
+    path: /?ed=2048
+- name: 14|US_speednode_0039
+  network: ws
+  port: 8880
+  server: 104.129.165.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0040
+  network: ws
+  port: 80
+  server: 151.101.2.228
+  servername: foffmelo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a0bf4979-b135-4396-c2b3-e492911dbda4
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
+- name: 14|US_speednode_0042
+  network: ws
+  port: 8880
+  server: 198.41.223.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0043
+  network: ws
+  port: 8880
+  server: 172.66.2.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0044
+  network: ws
+  port: 8880
+  server: 162.159.61.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0045
+  network: ws
+  port: 80
+  server: 151.101.2.219
+  servername: foffmelo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a0bf4979-b135-4396-c2b3-e492911dbda4
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
+- name: 14|US_speednode_0046
+  network: ws
+  port: 8880
+  server: 198.41.214.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0047
+  network: ws
+  port: 8880
+  server: 167.68.11.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|US_speednode_0048
+  network: ws
+  port: 80
+  server: speedtest.net
+  servername: foffmelo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a0bf4979-b135-4396-c2b3-e492911dbda4
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 14|US_speednode_0049
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: paS-kaLE-AGhA.pageS.deV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2e486f9-1697-4be6-be59-6c4fb42c7a24
+  ws-opts:
+    headers:
+      Host: paS-kaLE-AGhA.pageS.deV
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- client-fingerprint: chrome
+  name: 14|US_speednode_0050
+  network: ws
+  port: 443
+  server: 104.18.26.39
+  servername: 25707.lanpinguo.cloud-ip.biz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19bf0ff0-0dc5-4e24-80fc-450afa43d9fb
+  ws-opts:
+    headers:
+      Host: 25707.lanpinguo.cloud-ip.biz
+    path: /?ed=2560
+- name: 14|US_speednode_0051
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v06.networkpro.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v06.networkpro.net
+    path: /?ed=2048
+- name: 14|US_speednode_0052
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v01.networkpro.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v01.networkpro.net
+    path: /?ed=2048
+- name: 14|US_speednode_0053
+  network: ws
+  port: 443
+  server: 172.66.44.156
+  servername: besTiIvPn-6t8.PAGes.DEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f387ad9-043b-40b2-97c5-265d30cbfbf1
+  ws-opts:
+    headers:
+      Host: besTiIvPn-6t8.PAGes.DEV
+    path: /FmuwAIEMEYaRjcUE?ed=2560
+- name: 14|US_speednode_0054
+  network: ws
+  port: 80
+  server: partner.zoom.us
+  servername: 14.sahanwickramasinghe.shop
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 438f9559-1671-45cf-9d2c-338fe6766acf
+  ws-opts:
+    headers:
+      Host: 14.sahanwickramasinghe.shop
     path: /
