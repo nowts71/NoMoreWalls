@@ -1,12 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|4🇭🇰香港|官网：米卡莎.xyz
-  password: 85d8619c-a8b3-4713-9ca9-bcd6ac341b8b
-  port: 31141
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- name: 14|GB_speednode_0055
+- name: 13|GB_speednode_0055
   network: ws
   port: 8880
   server: 91.193.58.69
@@ -20,7 +13,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2560
-- name: 14|GB_speednode_0056
+- name: 13|GB_speednode_0056
   network: ws
   port: 8880
   server: 91.193.58.78
@@ -34,7 +27,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2560
-- name: 14|GB_speednode_0057
+- name: 13|GB_speednode_0057
   network: ws
   port: 8880
   server: 91.193.58.229
@@ -48,7 +41,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 14|GB_speednode_0058
+- name: 13|GB_speednode_0058
   network: ws
   port: 8880
   server: 91.193.58.196
@@ -62,7 +55,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram@WangCai2
-- name: 14|GB_speednode_0059
+- name: 13|GB_speednode_0059
   network: ws
   port: 8880
   server: 91.193.58.196
@@ -76,7 +69,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram@WangCai2/?ed=2560
-- name: 14|GB_speednode_0060
+- name: 13|GB_speednode_0060
   network: ws
   port: 8880
   server: 91.193.58.64
@@ -90,7 +83,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|GB_speednode_0061
+- name: 13|GB_speednode_0061
   network: ws
   port: 8880
   server: 91.193.58.65
@@ -106,7 +99,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|GB_speednode_0062
+  name: 13|GB_speednode_0062
   port: 443
   reality-opts:
     public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
@@ -117,3 +110,10 @@ proxies:
   type: vless
   udp: true
   uuid: a0de1607-5b63-fab8-a759-9f98706b6125
+- cipher: chacha20-ietf-poly1305
+  name: 14|4🇭🇰香港|官网：米卡莎.xyz
+  password: 7a1e7356-a414-4129-be7b-7b122f9cc428
+  port: 31141
+  server: freem.vidalith.com
+  type: ss
+  udp: true
