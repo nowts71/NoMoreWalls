@@ -1,9 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：a5b3cloud.pro
-  password: 0311245f-c5f2-4604-841c-0f5eb33dfaaf
-  port: 36311
-  server: freea.glyphara.com
+  name: 0|16🇰🇷韩国|官网：m5c3cloud.pro
+  password: 62fbcfe4-964c-4ae4-893e-d1b59c0ff492
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|17🇰🇷韩国|官网：m5c3cloud.pro
+  password: 62fbcfe4-964c-4ae4-893e-d1b59c0ff492
+  port: 31313
+  server: freem.vidalith.com
   type: ss
   udp: true
 - name: 1|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
@@ -39,17 +46,10 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|16🇰🇷韩国|官网：mikasacloud.site
-  password: 94649cc2-1d08-4af7-bfab-ab686fe62666
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|17🇰🇷韩国|官网：m5c3cloud.pro
-  password: 94649cc2-1d08-4af7-bfab-ab686fe62666
-  port: 31313
-  server: freem.vidalith.com
+  name: 2|16🇰🇷韩国|官网：a5b3cloud.pro
+  password: 20d0a338-81a8-43fe-afc6-0d89b8e9d8ff
+  port: 36311
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
