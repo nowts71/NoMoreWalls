@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 101 | 1x CA
-  password: 2cb3e488-5d45-4682-97ab-536352d0068a
+  name: 0|🇨🇦加拿大 101 | 1x CA
+  password: f4086c0f-007c-4f6d-a8ad-da295a3216d9
   port: 31441
   server: freem.vidalith.com
   type: ss
   udp: true
-- name: '10|Channel id: @ShadowProxy66🇨🇦'
+- name: '11|Channel id: @ShadowProxy66🇨🇦'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 40.233.70.163
@@ -14,10 +14,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 101 | 1x CA
-  password: b22828e1-0bf1-4d93-ad8d-6f7206950392
-  port: 36441
-  server: freea.glyphara.com
-  type: ss
-  udp: true
