@@ -99,7 +99,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|کانا تلگرام : injastvpn@'
+- name: '10|All-@IRAN_V2RAY1 #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -127,28 +127,10 @@ proxies:
   sni: yue-ru.yuetoto.net
   tls: false
   type: hysteria2
-- name: 10|🇪@FreakConfig
-  obfs: salamander
-  obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN
-  password: dailyconfigs
-  port: 443
-  server: 176.124.204.248
-  skip-cert-verify: true
-  sni: ubuntu com
-  tls: false
-  type: hysteria2
 - name: '10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|@FreakConfig
-  password: miaoge110
-  port: 12687
-  server: 45.58.38.153
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
