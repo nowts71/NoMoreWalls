@@ -1,12 +1,18 @@
 proxies:
-- alpn:
-  - h3
-  name: 10|@Hddify
-  password: auth
-  port: 443
-  server: 65.109.178.92
+- name: 10|✊97@oneclickvpnkeys
+  password: bb7d8763-4afa-465f-b066-35786781ced2
+  port: 49930
+  server: 216.236.26.19
   skip-cert-verify: true
-  sni: cdn.cloudflare.com
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 10|93@oneclickvpnkeys
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
